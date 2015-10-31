@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="app_title">TIC TAC TOE</string>
+
+    <string name="x_cell">X</string>
+    <string name="o_cell">O</string>
+    <string name="blank_cell"> </string>
+
+    <string name="x_prompt">X, It\'s Your Turn</string>
+    <string name="o_prompt">O, It\'s Your Turn</string>
+    <string name="x_victory">X Wins!</string>
+    <string name="o_victory">O Wins!</string>
+    <string name="tie_game">Game Tied</string>
+
+
+    <string name="replay_prompt">Play Again</string>
+    <string name="credits">Created By: Group 1</string>
+
+    <string name="avail_devices"><u>Scanning for available devices...</u></string>
+    <string name="action_settings">STRING ADDED TO ELIMINATE ERROR (-Scott)</string>
+
+</resources>

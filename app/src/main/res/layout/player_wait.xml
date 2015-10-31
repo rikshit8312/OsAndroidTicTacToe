@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This was used for testing. It may be deleted, if we agree to keep
+     the "Waiting for players..." message at the Game Select screen. (Scott, 7/8/15) -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Waiting for players..."
+        android:id="@+id/player_wait_msg"
+        android:textSize="25dp"/>
+
+</LinearLayout>
