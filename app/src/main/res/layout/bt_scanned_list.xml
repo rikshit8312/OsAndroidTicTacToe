@@ -10,18 +10,20 @@
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:textSize="30dp"
+        android:textSize="35dp"
         android:layout_margin="15dp"
         android:layout_gravity="center_horizontal"
         android:text="@string/avail_devices"
         android:textStyle="bold"
-        android:paddingBottom="20dp"/>
+        android:textColor="#ffffff"
+        />
 
     <TextView
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         android:layout_width="wrap_content"
         android:layout_margin="15dp"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:text="Devices Found:"
         android:textStyle="bold"
         android:paddingBottom="20dp"/>

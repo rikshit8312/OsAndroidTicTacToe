@@ -59,9 +59,8 @@ public class TicTacToe extends Activity {
             public void onClick(View v) {
                 newGame();
 
-                if (btPlay) {
-                    btControl.sendMove("N");
-                }
+                btControl.sendMove("N");
+
             }
         });
 
@@ -262,7 +261,7 @@ public class TicTacToe extends Activity {
     public void receiveMove(char[] move) {
         Log.d(myTag, "Receiving move: " + move);
 
-        if (move[0] == 'n') {
+        if (move[0] == 'N') {
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {

@@ -8,6 +8,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
@@ -91,7 +92,8 @@ public class BluetoothConnect extends MainActivity {
                 if (device.getName() != null)
                     deviceName += " (" + device.getName() + ")";
                 deviceEntry.setText(deviceName);
-                deviceEntry.setTextSize(20);
+                deviceEntry.setTextSize(25);
+                deviceEntry.setTextColor(Color.parseColor("#ffffff"));
 
                 deviceEntry.setOnClickListener(new TextView.OnClickListener() {
                     @Override
@@ -179,12 +181,11 @@ public class BluetoothConnect extends MainActivity {
 
     private class ConnectThread extends Thread {
         private final BluetoothSocket mmSocket;
-        private final BluetoothDevice mmDevice;
 
         public ConnectThread(BluetoothDevice device) {
 
             BluetoothSocket tmp = null;
-            mmDevice = device;
+
             try {
                 // MY_UUID is the app's UUID string, also used by the server code
                 tmp = device.createRfcommSocketToServiceRecord(MY_UUID);

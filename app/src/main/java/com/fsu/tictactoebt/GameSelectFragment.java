@@ -15,7 +15,7 @@ public class GameSelectFragment extends Fragment implements View.OnClickListener
     Button mBtnPlayAsHost;
     Button mBtnPlayAsClient;
     ProgressDialog mSpinnerDialog;
-    private BluetoothAdapter mBluetoothAdapter;
+
 
     public final static String EXTRA_KEY = "com.fsu.tictactoebt";
 
@@ -35,7 +35,7 @@ public class GameSelectFragment extends Fragment implements View.OnClickListener
 
     public void onClick(View v) {
 
-        Fragment nextFragment;
+
         BluetoothConnect btConnActivity = (BluetoothConnect) getActivity();
 
         if (v == mBtnPlayAsHost) {
