@@ -1,4 +1,4 @@
-package com.fsu.tictacnolebt;
+package com.fsu.tictactoebt;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,9 +1,9 @@
-package com.fsu.tictacnolebt;
+package com.fsu.tictactoebt;
 
 
 public class TicTacToePlayer {
 
-    private TicTacToeGame.PlayerType type; //human or computer
+    private TicTacToeGame.PlayerType type;
     private TicTacToeGame.Player team; //X or O
 
     public TicTacToePlayer(TicTacToeGame.PlayerType type, TicTacToeGame.Player team) {

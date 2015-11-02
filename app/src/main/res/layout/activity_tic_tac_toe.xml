@@ -17,6 +17,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/header"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:background="#00695C">
 
         <TextView
@@ -60,9 +62,7 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="10dp"
                 android:background="#000000"
-                android:textSize="70dp"
-                android:text="X"
-                android:textColor="#FFD54F" />
+                android:textSize="70dp" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -74,9 +74,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:background="#000000"
-                android:text="0"
-                android:textSize="70dp"
-                android:textColor="#C5E1A5" />
+                android:textSize="70dp" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -87,9 +85,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginBottom="10dp"
                 android:background="#000000"
-                android:text="X"
-                android:textSize="70dp"
-                android:textColor="#ff0000" />
+                android:textSize="70dp" />
         </TableRow>
 
         <TableRow
@@ -107,8 +103,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginRight="5dp"
                 android:background="#000000"
-                android:textSize="70dp"
-                android:textColor="@color/fsu_gold" />
+                android:textSize="70dp" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -120,8 +115,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:background="#000000"
-                android:textSize="70dp"
-                android:textColor="@color/fsu_gold" />
+                android:textSize="70dp" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -132,8 +126,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="5dp"
                 android:background="#000000"
-                android:textSize="70dp"
-                android:textColor="@color/fsu_gold" />
+                android:textSize="70dp" />
         </TableRow>
 
         <TableRow
@@ -151,7 +144,7 @@
                 android:layout_marginRight="5dp"
                 android:background="#000000"
                 android:textSize="70dp"
-                android:textColor="@color/fsu_gold" />
+                  />
 
             <Button
                 android:layout_width="wrap_content"
@@ -162,8 +155,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:background="#000000"
-                android:textSize="70dp"
-                android:textColor="@color/fsu_gold" />
+                android:textSize="70dp" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -174,7 +166,7 @@
                 android:layout_marginLeft="5dp"
                 android:background="#000000"
                 android:textSize="70dp"
-                android:textColor="@color/fsu_gold" />
+                  />
         </TableRow>
     </TableLayout>
 
@@ -207,10 +199,11 @@
             android:id="@+id/replay_button"
             android:layout_weight="1"
             android:textStyle="bold"
+            android:background="#c1cdcd"
             android:textSize="25dp"
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="7dp"
-            android:layout_marginRight="5dp" />
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -223,6 +216,8 @@
             android:textSize="30dp"
             android:gravity="center_vertical|center_horizontal"
             android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1" />
     </LinearLayout>
 

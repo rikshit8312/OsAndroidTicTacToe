@@ -6,25 +6,5 @@
     tools:context=".BluetoothConnect"
     android:id="@+id/fragment_container">
 
-    <!-- 'Hello World' and fragment testing button to be deleted.
-
-    <TextView android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/hello_world_msg"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Testing Fragment (Scott)"
-        android:id="@+id/test_fragment_button"
-        android:layout_below="@id/hello_world_msg"/>
-
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/fragment_container"
-        android:layout_below="@id/test_fragment_button"/>
-    -->
 
 </FrameLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fsu.tictacnolebt" >
+    package="com.fsu.tictactoebt" >
 
     <!--Bluetooth Permissions-->
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -15,7 +15,7 @@
 
         <!--Splash Screen Activity-->
         <activity
-            android:name=".SplashScreen"
+            android:name="com.fsu.tictactoebt.SplashScreen"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
             android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
@@ -26,7 +26,7 @@
         <!--Splash Screen Activity-->
         
         <activity
-            android:name=".BluetoothConnect"
+            android:name="com.fsu.tictactoebt.BluetoothConnect"
             android:label="@string/app_name"
             android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
@@ -37,7 +37,7 @@
         </activity>
 
         <activity
-            android:name=".TicTacNole"
+            android:name="com.fsu.tictactoebt.TicTacToe"
             android:label="@string/app_name"
             android:configChanges="keyboardHidden|orientation|screenSize">
         </activity>

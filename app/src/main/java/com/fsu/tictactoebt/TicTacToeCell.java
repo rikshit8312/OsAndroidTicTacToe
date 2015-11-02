@@ -1,4 +1,4 @@
-package com.fsu.tictacnolebt;
+package com.fsu.tictactoebt;
 
 import android.widget.Button;
 
@@ -6,7 +6,7 @@ public class TicTacToeCell {
 
     private final TicTacToeGame.CellPosition pos;
     private TicTacToeGame.Player owner;
-    private Button uiCell; //UI element associated with this cell; added to allow mapping from TicTacToeCell to Button
+    private Button uiCell;
 
     public TicTacToeCell(TicTacToeGame.CellPosition pos, TicTacToeGame.Player owner) {
         this.pos = pos;

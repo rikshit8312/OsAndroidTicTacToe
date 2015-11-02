@@ -3,20 +3,24 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:background="#6495ed"
     android:layout_height="match_parent"
     android:id="@+id/bt_scanned_list">
 
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:textSize="25dp"
+        android:textSize="30dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal"
         android:text="@string/avail_devices"
-        android:textStyle="italic"
+        android:textStyle="bold"
         android:paddingBottom="20dp"/>
 
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_margin="15dp"
         android:textSize="20dp"
         android:text="Devices Found:"
         android:textStyle="bold"

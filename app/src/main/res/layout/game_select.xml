@@ -1,53 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Tic Tac Nole x2!"
-        android:textSize="35dp"
-        android:gravity="center"
-        android:paddingLeft="25dp"
-        android:paddingRight="25dp"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="1"
+        android:background="@drawable/game_sel_bg"
+        android:adjustViewBounds="false" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Select a Bluetooth option below:"
-        android:textSize="18dp"
-        android:padding="20dp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Play as Host"
-        android:id="@+id/btn_play_as_host"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="135dp"
+            android:gravity="center"
+            android:background="#420a4d"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="Welcome to\nTic Tac Toe"
+            android:textColor="#ffffff"
+            android:layout_marginTop="0dp"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Play as Client"
-        android:id="@+id/btn_play_as_client"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Or, use a single phone:"
-        android:textSize="18dp"
-        android:paddingTop="40dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingBottom="20dp"/>
+        <Button
+            android:id="@+id/btn_play_as_host"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Play as Host"
+            android:layout_marginTop="135dp"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Play Without Bluetooth"
-        android:id="@+id/btn_play_without_bt"/>
+        <Button
+            android:id="@+id/btn_play_as_client"
+            android:textSize="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Play as Client"
+            android:layout_marginTop="40dp"/>
 
-</LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

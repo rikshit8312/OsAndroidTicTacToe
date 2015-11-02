@@ -16,7 +16,7 @@
     <string name="replay_prompt">Play Again</string>
     <string name="credits">Created By: Group 1</string>
 
-    <string name="avail_devices"><u>Scanning for available devices...</u></string>
+    <string name="avail_devices"><u>Scanning Devices...</u></string>
     <string name="action_settings">STRING ADDED TO ELIMINATE ERROR (-Scott)</string>
 
 </resources>
